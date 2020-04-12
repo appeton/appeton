@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Hein Htet Aung</title>
+    <link rel="icon" type="image/ico" href="assets/img/Screenshot__14_-removebg-preview.png" />
+	<!-- bootstrap css -->
+	<link rel="stylesheet" type="text/css" href="assets/library/bootstrap-4.4.1-dist/css/bootstrap.css">
+	<!-- custom css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+    <div class="loader">
+        <img src="assets/img/Ripple-1s-200px.gif">
+    </div>
+
+	<div class="nav container">
+		<div class="mobile "><img src="assets/img/icons8-squared-menu-24.png" onclick="myFunction()">
+		</div>
+		<div class="hire-me" onclick="cv()"><span>Hire Me</span></div>
+
+	</div>
+
+
+	<div id="hidden-div" >
+
+		<ul>
+			<li><a href="#slider" onclick="closeNav()">Home</a></li>
+			<li><a href="#about"   onclick="closeNav()">About</a></li>
+			<li><a href="#portfolio"   onclick="closeNav()">Portfolio</a></li>
+			<li><a href="#contact"   onclick="closeNav()">Contact</a></li>
+		</ul>
+     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ </div>
+
+ <!-- slider -->
+ <div class="slider container" id="slider">
+    <div class="slider-content row">
+        <div class="slider-text cols-4">
+         <h3>Hello I'm</h3>
+         <h1>HEIN HTET AUNG</h1>
+         <h4>
+          <a href="" class="typewrite" data-period="2000" data-type='[ "UI/UX Designer", "Web Designer", "I Love Design.", "I Love to Develop." ]'>
+            <span class="wrap"></span>
+        </a>
+    </h4>
+    <div class="cv" onclick="cv()"><span>CV Form</span></div>
+</div>
+
+<div class="slider-img cols-5"><img src="assets/img/PicsArt_04-01-04-removebg-preview.png">
+    <div class="circle">
+        <div class="circle-1"></div>
+        <div class="circle-2"></div>
+        <div class="circle-3"></div>
+    </div>
+</div>
+</div>
+<div class="menu">
+    <div class="Home"><a href="#slider"><img src="assets/img/icons8-home-24.png" ></a></div>
+    <div class="About"><a href="#about"><img src="assets/img/icons8-account-30.png" ></a></div>
+    <div class="Portfolio"><a href="#portfolio"><img src="assets/img/icons8-love-book-24.png" ></a></div>
+    <div class="Contact"><a href="#contact"><img src="assets/img/icons8-phone-message-30.png" ></a></div>
+</div>
+</div>
+
+<!-- about -->
+<div class="about container" id="about">
+    <div class="row">
+        <div class="about-text col-lg-5">
+            <h1>About Me</h1>
+            <p>I'm Hein Htet Aung.Date of Birth is 3.11.2000.Now,I studies at 3rd year(Computer Science) at University of Computer Studies,Yangon.</p>
+        </div>
+        <div class="skill col-lg-7 col-12">
+            <div class="sone"><span>HTML</span></div>
+            <div class="stwo"><span>CSS</span></div>
+            <div class="sthree"><span>Boostrap</span></div>
+            <div class="sfour"><span>XD</span></div>
+            <div class="sfive"><span>Photoshop</span></div>
+
+
+
+
+        </div>
+    </div>
+</div>
+
+<!-- portfolio -->
+<div class="container portfolio" id="portfolio">
+    <h1>Portfolio</h1>
+    <div id="carouselExampleIndicators" class="carousel slide container" data-ride="carousel">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active row border-secondary">
+               <div class="One"><img src="assets/img/mobile music1.png" class="" onclick="port1()"></div>
+               <div class="One"><img src="assets/img/Screenshot_2020-03-30-12-42-13-724_com.mxtech.videoplaer.ad.jpg" class="" onclick="port2()"></div>
+               <div class="One"><img src="assets/img/50782935_1618545244958360_3528185474680094720_n.jpg" class="" onclick="port3()"></div>
+               <div class="One"><img src="assets/img/54458167_1666917086787842_7825980787601178624_o.jpg" class="" onclick="port3()"></div>
+           </div>
+           <div class="carousel-item">
+            <div class="One"><img src="assets/img/25-2.jpg" class="" onclick="port3()"></div>
+            <div class="One"><img src="assets/img/44611079_1542456125900606_6314178331205959680_n.jpg" class="" onclick="port3()"></div>
+            <div class="One"><img src="assets/img/66837416_1768834083262808_133813167850520576_o.jpg" class="" onclick="port3()"></div>
+            <div class="One"><img src="assets/img/mobile-img.jpg" class="" onclick="port3()"></div>
+        </div>
+
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">  
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    </a>
+</div>
+<div id="hidden-port1"> 
+ <a href="javascript:void(0)" class="close1" onclick="close1()">&times;</a> 
+    <h1>Music Sample</h1>
+    <img src="assets/img/music app sample.png">
+  <!--   <img src="assets/img/mobile music.png">
+    <img src="assets/img/Screenshot (20).png">
+    <img src="assets/img/IMG_20200120_065925.png"> -->
+</div>
+<div id="hidden-port2"> 
+ <a href="javascript:void(0)" class="close1" onclick="close1()">&times;</a> 
+ <h1>Shop</h1>
+ <video src="assets/img/New video.mp4"  controls>
+</div>
+
+<div id="hidden-port3"> 
+ <a href="javascript:void(0)" class="close1" onclick="close1()">&times;</a> 
+ <h1>Comming Soon!</h1>
+
+</div>
+</div>
+
+<!-- contact -->
+<div class="contact container " id="contact">
+    <h1>Be my Friend</h1>
+    <div class="row">
+    <div class="form col-lg-4">
+    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdf7YV1TuK4SZKpq6uKyKLM8M_2YYDU7i2vqMwin923OjRQNA/formResponse" method="post" target="hidden_iframe">
+        <div class="input1">
+        <img src="assets/img/icons8-account-30.png">
+        <input type="text" name="entry.476179927" placeholder="Name"  id="name"required>
+        </div>
+        <div class="panel"></div>
+        <div class="input1">
+            <img src="assets/img/icons8-phone-message-30.png">
+        <input type="text" name="entry.1194889104" placeholder="Phone" id="phone" required>
+    </div>
+        <div class="panel"></div>
+        <div class="input1">
+            <img src="assets/img/icons8-gmail-50.png" width="30" height="30">
+        <input type="email" name="emailAddress" placeholder=" Email" id="email" size="30" required>
+    </div>
+        <div class="panel"></div>
+        <button type="submit" onclick="final() ">Send</button>
+        <script type="text/javascript">var submitted=false;</script>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+    onload="if (submitted) {window.location='https://www.google.com/search?q=w33schools&oq=w33&aqs=chrome.1.69i57j0l7.4754j0j7&sourceid=chrome&ie=UTF-8';}">
+</iframe>
+      
+    </form>
+</div>
+
+<div class="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12403.49318547925!2d96.07843862571819!3d16.951936344564764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdbfecafb034590d5!2sKoung%20Thone%20Lone!5e1!3m2!1sen!2smm!4v1586579357937!5m2!1sen!2smm" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+</div>
+
+</div>
+
+<!-- footer -->
+
+<footer>
+    <div class="fimg">
+        <a href="https://www.facebook.com/profile.php?id=100016983571333"> <img src="assets/img/icons8-facebook-48.png"></a>
+         <a href="https://www.instagram.com/appet_on/?fbclid=IwAR1cNP94f4cKiJhs8Tb_OiIVGYGqmmXT6kpd9cb2I6Qsi8bhfF-DTEkkqpQ"> <img src="assets/img/instagram-png-instagram-png-icon-1024.png"></a>
+         <a href="https://twitter.com/Hein14550435?fbclid=IwAR0yg9bTmaHwtlGUvBGWOY4FE5p2JP6wuiDJpHXgvyeO4bI0lzBYP-jCkYA"> <img src="assets/img/icons8-twitter-squared-48.png"></a>
+         <a href="https://www.behance.net/appeton54cc88?fbclid=IwAR0dDfYz6GG79I9EX2acnbliE-kh0oxIASjbQbxX1KL3-FiOAWcjc7Evo44"> <img src="assets/img/icons8-behance-48.png"></a>
+         <a href="https://dribbble.com/appeton?fbclid=IwAR1-DT6kjb_XDQfZEMlpOaFk486Vtf89woUeYMPimNPCGISMwvHoo26L7MM"> <img src="assets/img/dribbble-icon-1-logo-png-transparent.png"></a>
+    </div>
+
+    <div class="link">
+        <a href="#slider">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#portfolio">PORTFOLIO</a>
+        <a href="#contact">CONTACT</a>
+    </div>
+    <div class="time">
+    <p> <span id="dateDiv"></span></p>
+ <p><span id="datetime"></span></p>
+ <p>copyright&copy;HeinHtetAung</p>
+ </div>
+
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+</script>
+
+
+
+<SCRIPT LANGUAGE="JavaScript">
+function showDate()
+{
+    var now = new Date();
+    
+    function fourdigits(number)
+    {
+        return (number < 1000) ? number + 1900 : number;
+    }
+
+tnow=new Date();
+thour=now.getHours();
+tmin=now.getMinutes();
+tsec=now.getSeconds();
+
+if (tmin<=9) { tmin="0"+tmin; }
+if (tsec<=9) { tsec="0"+tsec; }
+if (thour<10) { thour="0"+thour; }
+
+today =  thour + ":" + tmin +":"+ tsec;
+document.getElementById("dateDiv").innerHTML = today;
+}
+setInterval("showDate()", 1000);
+</script>
+
+
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+  function myFunction(){
+   var a=document.getElementById("hidden-div");
+
+		
+
+			if(a.style.display=="block"){
+				a.style.display="none";
+				a.style.animation=`mobile-close 5s ease-in`;
+				// b.style.display="none";
+				// c.style.display="none";
+			}else{
+				
+				a.style.animation=`mobile-nav 1s ease-out`;
+				a.style.display="block";
+			}
+		}
+
+        function closeNav() {
+          document.getElementById("hidden-div").style.display="none";
+      }
+
+
+      function port1(){
+        var b=document.getElementById("hidden-port1");
+        if(b.style.display=="block"){
+            b.style.display="none";
+           
+        }
+        else{
+             b.style.animation=`portfolio 0.5s linear`;
+            b.style.display="block";
+
+        }
+    }
+     function port2(){
+        var b=document.getElementById("hidden-port2");
+        if(b.style.display=="block"){
+            b.style.display="none";
+          
+          
+        }
+        else{
+             b.style.animation=`portfolio 0.5s linear`;
+            b.style.display="block";
+        }
+    }
+         function port3(){
+        var b=document.getElementById("hidden-port3");
+        if(b.style.display=="block"){
+            b.style.display="none";
+            
+        }
+        else{
+             b.style.animation=`portfolio 0.5s linear`;
+            b.style.display="block";
+        }
+    }
+    function close1(){
+        document.getElementById("hidden-port1").style.display="none";
+        document.getElementById("hidden-port2").style.display="none";
+        document.getElementById("hidden-port3").style.display="none";
+    }
+
+    function final(){
+
+ var name=document.getElementById("name").value;
+
+    var phone=document.getElementById("phone").value;
+    var email=document.getElementById("email").value;
+    
+    if( name=="" ||phone==""|| email=="")
+    {
+        alert("Please fill the blank"); 
+    }
+    else{
+
+        alert("Welcome Friend");
+    }
+    }
+
+function cv(){
+    alert("Current not avaliable!");
+}
+
+
+    var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+            this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+            this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+            delta = this.period;
+            this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+            this.isDeleting = false;
+            this.loopNum++;
+            delta = 500;
+        }
+
+        setTimeout(function() {
+            that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+          }
+      }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
+
+
+
+window.addEventListener("load",function(){
+    const loader=document.querySelector(".loader");
+    loader.className+=" hidden";
+});
+
+
+</script>
+
+
+
+<!-- boostrap popper -->
+<script type="text/javascript" src="assets/library/bootstrap-4.4.1-dist/js/popper.js"></script>
+<!-- boostrap jquery -->
+<script type="text/javascript" src="assets/library/bootstrap-4.4.1-dist/js/jquery.min.js"></script>
+<!-- boostrap js -->
+<script type="text/javascript" src="assets/library/bootstrap-4.4.1-dist/js/bootstrap.js"></script>
+</body>
+</html>
+
